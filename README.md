@@ -7,5 +7,5 @@ Dopo aver effettuato un'analisi esplorativa del dataset, si è proceduto con il 
 Si addestra il modello di classificazione, partendo da un modello semplice come la logistic regression.  
 Infine,come richiesto, vengono affrontati i seguenti punti:  
 - Individuare i Topic principali tra le email SPAM presenti nel dataset  
-- Calcolare la distanza semantica tra i topics ottenuti, per dedurne l'eterogeneità.  
+- Calcolare la distanza semantica tra i topics ottenuti, per dedurne l'eterogeneità, tramite cosine similarity
 - Estrarre dalle mail NON SPAM le Organizzazioni presenti.  
