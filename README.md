@@ -8,7 +8,7 @@ Si addestra il modello di classificazione, partendo da un modello semplice come 
 Infine,come richiesto, vengono affrontati i seguenti punti:
 
 - Individuare i Topic principali tra le email SPAM presenti nel dataset:creiamo il dizionario e il corpus tramite doc2bow() che verrà utilizzato dal modello LDA. Al fine di identificare i topic di maggior rilevanza, utilizzo Counter() per aggregare le probabilità dei topic per ciascun documento nel corpus generato dal modello LDA e il metodo most_common() dell'oggetto Counter, che restituisce una lista delle N tuple (topic_id, count) più comuni.
-- 
+
 - Calcolare la distanza semantica tra i topics ottenuti, per dedurne l'eterogeneità, tramite cosine_similarity()
 
 - Estrarre dalle mail NON SPAM le Organizzazioni presenti.
