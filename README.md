@@ -1,4 +1,4 @@
-**Software Anti-Spam per un'Università**
+**Software Anti-Spam **
 
 Questo progetto si basa sulla creazione di un modello di classificazione in grado di distinguere tra email SPAM e HAM. 
 Il dataset è in formato csv. 
